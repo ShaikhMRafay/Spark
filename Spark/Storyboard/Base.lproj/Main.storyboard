@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ljU-lg-TJv">
-                                <rect key="frame" x="20" y="0.0" width="335" height="50"/>
+                                <rect key="frame" x="20" y="5" width="335" height="50"/>
                                 <subviews>
                                     <searchBar contentMode="redraw" placeholder="Enter name, ID" translatesAutoresizingMaskIntoConstraints="NO" id="9tc-wO-ECD">
                                         <rect key="frame" x="0.0" y="0.0" width="171.5" height="50"/>
@@ -82,14 +82,14 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bqE-AM-VWl" secondAttribute="trailing" constant="5" id="2As-YF-wqe"/>
                             <constraint firstAttribute="bottom" secondItem="bqE-AM-VWl" secondAttribute="bottom" id="9E4-KM-T8K"/>
-                            <constraint firstItem="ljU-lg-TJv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="LNk-hY-P5Z"/>
-                            <constraint firstItem="hgH-VJ-jzr" firstAttribute="top" secondItem="ljU-lg-TJv" secondAttribute="bottom" constant="10" id="civ-6C-ILR"/>
-                            <constraint firstItem="hgH-VJ-jzr" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="jfy-sg-g1a"/>
-                            <constraint firstItem="bqE-AM-VWl" firstAttribute="top" secondItem="ljU-lg-TJv" secondAttribute="bottom" constant="10" id="jng-nj-ufz"/>
+                            <constraint firstItem="ljU-lg-TJv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="LNk-hY-P5Z"/>
+                            <constraint firstItem="hgH-VJ-jzr" firstAttribute="top" secondItem="ljU-lg-TJv" secondAttribute="bottom" constant="5" id="civ-6C-ILR"/>
+                            <constraint firstItem="hgH-VJ-jzr" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="jfy-sg-g1a"/>
+                            <constraint firstItem="bqE-AM-VWl" firstAttribute="top" secondItem="ljU-lg-TJv" secondAttribute="bottom" constant="5" id="jng-nj-ufz"/>
                             <constraint firstAttribute="bottom" secondItem="hgH-VJ-jzr" secondAttribute="bottom" id="kH3-lp-LA2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ljU-lg-TJv" secondAttribute="trailing" constant="20" id="o5p-cE-6Rb"/>
                             <constraint firstItem="ljU-lg-TJv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="tEX-B1-1tR"/>
-                            <constraint firstItem="hgH-VJ-jzr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xgz-eP-62L"/>
+                            <constraint firstItem="hgH-VJ-jzr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xgz-eP-62L"/>
                             <constraint firstItem="bqE-AM-VWl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="zuW-K0-YXj"/>
                         </constraints>
                     </view>
