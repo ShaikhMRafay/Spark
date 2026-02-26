@@ -1,10 +1,3 @@
-//
-//  SparkTests.swift
-//  SparkTests
-//
-//  Created by Javeria Asif on 24/02/2026.
-//
-
 import XCTest
 @testable import Spark
 

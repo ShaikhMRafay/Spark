@@ -1,10 +1,3 @@
-//
-//  SparkUITestsLaunchTests.swift
-//  SparkUITests
-//
-//  Created by Javeria Asif on 24/02/2026.
-//
-
 import XCTest
 
 final class SparkUITestsLaunchTests: XCTestCase {
