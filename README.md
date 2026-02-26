@@ -2,10 +2,10 @@
 
 **Minimum iOS Version:** 16.2  
 **Xcode Version:** 14.2
+**Built With:** Swift-UIKit
 **Dependency Manager:** CocoaPods  
 **Pods Used:**  
 - `SkeletonView`
-**Built With:** Swift-UIKit
 
 ---
 
