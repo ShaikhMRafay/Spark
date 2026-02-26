@@ -80,7 +80,7 @@ final class RosterViewModel {
                 classDateTime: roster.classDateTime,
                 classStartTime: roster.classStartTime,
                 classEndTime: roster.classEndTime,
-                registeredContacts: contactsToShow  // ✅ Correct contacts
+                registeredContacts: contactsToShow
             )
         }
         

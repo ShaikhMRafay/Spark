@@ -95,24 +95,6 @@ class RosterViewController: UIViewController {
     
 }
 
-//extension RosterViewController: UITableViewDataSource {
-//
-//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        viewModel.filteredRosters.count
-//    }
-//
-//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//
-//        guard let cell = tableView.dequeueReusableCell(withIdentifier: "RosterTableViewCell", for: indexPath) as? RosterTableViewCell else {
-//            return UITableViewCell()
-//        }
-//
-//        let roster = viewModel.filteredRosters[indexPath.row]
-//        cell.configure(with: roster)
-//        return cell
-//    }
-//}
-
 extension RosterViewController: UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -123,7 +105,7 @@ extension RosterViewController: UITableViewDataSource {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "RosterTableViewCell", for: indexPath) as? RosterTableViewCell else {
             return UITableViewCell()
         }
-        let roster = viewModel.filteredRosters[indexPath.section]  // <-- .section
+        let roster = viewModel.filteredRosters[indexPath.section]
         cell.configure(with: roster)
         return cell
     }
@@ -136,7 +118,7 @@ extension RosterViewController: UITableViewDelegate{
     }
     
     func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        return 8
+        return 2
     }
 }
 
